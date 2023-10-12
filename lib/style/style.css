@@ -1,0 +1,314 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+body {
+  font-family: "work sans" Arial, sans-serif;
+}
+
+header {
+  margin-top: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link {
+  display: flex;
+  align-items: end;
+  list-style: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  padding-left: 20px;
+  color: #ababab;
+}
+.nav-item a:hover {
+  color: #00b39b;
+}
+
+.active {
+  color: #00b39b !important;
+}
+
+.logo {
+  text-align: center;
+  color: #00b39b;
+}
+
+.desc {
+  display: flex;
+  justify-content: space-around;
+}
+
+.desc-text {
+  width: 30%;
+  color: #ababab;
+  padding: 35px;
+  line-height: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desc-text p {
+  color: #ababab;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  align-content: center;
+}
+
+.item-one {
+  height: 350px;
+  padding: 30px;
+  width: 400px;
+  background-color: #00ccb1;
+  border-radius: 15px;
+}
+
+.inside-text {
+  line-height: 25px;
+}
+
+.country {
+  margin-top: -50px;
+  color: #fff;
+  background-color: #00ccb1;
+  margin-top: 40%;
+}
+
+.item-two {
+  height: 350px;
+  padding: 30px;
+  width: 400px;
+  background-color: #3d83df;
+  border-radius: 15px;
+}
+
+.country-two {
+  margin-top: 45%;
+  background-color: #3d83df;
+  color: #fff;
+}
+
+.item-three {
+  height: 350px;
+  padding: 30px;
+  width: 400px;
+  background-color: #1b2734;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.country-three {
+  margin-top: 40%;
+  background-color: #1b2734;
+  color: #fff;
+}
+
+.last-country {
+  margin-top: 12%;
+  background-color: #1b2734;
+  color: #fff;
+}
+
+.third-section {
+  display: flex;
+  width: 60%;
+  margin: 30px auto;
+  justify-content: space-between;
+}
+
+.writeup {
+  color: #00b39b;
+}
+
+.first-image {
+  display: flex;
+}
+
+.second-image {
+  display: flex;
+}
+
+.third-image {
+  display: flex;
+}
+
+.fourth-image {
+  display: flex;
+}
+
+.fourth-section {
+  background-color: #d0faf4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.fourth-header {
+  color: #00b39b;
+  margin: 50px;
+}
+
+.fourth-text {
+  color: #ababab;
+  margin: 50px;
+}
+
+.logo {
+  margin-top: 100px;
+}
+
+.inner-div {
+  display: flex;
+}
+
+.cont-divA {
+  background-color: #fff;
+  padding: 65px;
+  margin: 65px;
+  justify-content: space-between;
+  width: 220px;
+  height: 240px;
+}
+
+.flag {
+  width: 25px;
+  height: auto;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.flag-text {
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+
+.flag-body {
+  font-size: 0.7em;
+  font-weight: 400;
+  color: #ababab;
+}
+
+.cont-divB {
+  background-color: #fff;
+  padding: 65px;
+  margin: 65px;
+  justify-content: space-between;
+  width: 220px;
+  height: 240px;
+  margin-top: 40px;
+}
+
+.calender {
+  width: 25px;
+  height: auto;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.calender-text {
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+
+.calender-body {
+  font-size: 0.8125em;
+  font-weight: 400;
+  color: #ababab;
+}
+
+.cont-divC {
+  background-color: #fff;
+  padding: 65px;
+  margin: 65px;
+  justify-content: space-between;
+  width: 220px;
+  height: 240px;
+}
+
+.persons {
+  width: 25px;
+  height: auto;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.persons-text {
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+
+.persons-body {
+  font-size: 0.8125em;
+  font-weight: 400;
+  color: #ababab;
+}
+
+.cont-divD {
+  background-color: #fff;
+  padding: 65px;
+  margin: 65px;
+  justify-content: space-between;
+  width: 220px;
+  height: 240px;
+  margin-top: 40px;
+}
+
+.people {
+  width: 25px;
+  height: auto;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.people-text {
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+
+.people-body {
+  font-size: 0.8125em;
+  font-weight: 400;
+  color: #ababab;
+}
+
+.fifth-section {
+  padding-top: 70;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  font-size: 14px;
+}
+
+.fifth-intro {
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #00b39b;
+  text-align: center;
+  margin: 30px;
+}
+
+.fifth-text {
+  color: #ababab;
+  text-align: center;
+  margin: 20px;
+  font-size: 17px;
+}/*# sourceMappingURL=style.css.map */
