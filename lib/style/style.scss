@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0%;
+    
 }
 body {
     font-family:"work sans"Arial,sans-serif;
@@ -14,7 +15,7 @@ body {
 header{
     margin-top: 30px;
 }
-
+// begining of the header part
 .header {
     display: flex;
     justify-content: space-around;
@@ -139,7 +140,7 @@ header{
     display:flex
 }
 
-
+// begining of the fourth-section
 .fourth-section {
     background-color: #d0faf4;
     display: flex;
@@ -173,6 +174,7 @@ header{
     justify-content: space-between;
     width: 220px;
     height: 240px;
+   margin-left: 150px;
    
    
 }
@@ -204,6 +206,8 @@ letter-spacing: -0.3px;
     width: 220px;
     height: 240px;
     margin-top: 40px;
+    
+  
 }
 
 .calender {
@@ -233,6 +237,7 @@ letter-spacing: -0.3px;
     justify-content: space-between;
     width: 220px;
     height: 240px;
+    margin-left: 150px;
 }
 .persons {
     width: 25px;
@@ -278,6 +283,7 @@ letter-spacing: -0.3px;
     color: $textColor;
 
 }
+// begining of the fifth-section
 .fifth-section {
     
     padding-top: 70;
@@ -301,3 +307,93 @@ letter-spacing: -0.3px;
     margin: 20px;
     font-size: 17px;
 }
+.sixth-section {
+   display: flex;
+   justify-content: center; 
+   
+
+} 
+.imgA1{
+    flex-wrap: nowrap;
+    filter: drop-shadow(10px 10px 10px #666666)
+}
+.imgA2 {
+    filter: drop-shadow(10px 10px 10px #666666)
+}
+.imgA3 {
+    filter: drop-shadow(10px 10px 10px #666666)
+}
+.imgAA {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    
+    
+}
+.one {
+    color: $textColor;
+}
+.two {
+   display: flex;
+   justify-content: space-between;
+   background: #3d83df;
+   color: #fff;
+  padding: 5px;
+  border-radius: 10%;
+  font-family: Roboto, Arial sans-serif;
+
+}
+.seventh-section {
+    display: flex;
+   margin-top: 10px;
+   height:250px;
+   justify-content: center;
+   align-items: end;
+   padding: 80px;
+   align-items: center;
+   
+    
+}
+.seventh-intro {
+    align-items: center;
+    padding-top: 60px;
+    justify-content: center;
+    font-size: 2.1em;
+    color: #333;
+    font-family: work sans, Arial, sans-serif;
+  
+}
+.seventh-text {
+    font-size: 15px;
+    background-color: #3d83df;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Roboto, Arial sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+// footer part
+
+.footer {
+    justify-content: center;
+    color: $textColor;
+    align-items: center;
+    display: flex;
+}
+.footer-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: $textColor;
+}
+
+   
+
